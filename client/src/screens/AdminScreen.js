@@ -36,7 +36,7 @@ export default function ProfileScreen() {
     else{
         navigate("/profile");
     }
-    }, []);
+    }, [bookings]);
 
   return (
   <div>

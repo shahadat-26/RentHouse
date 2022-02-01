@@ -28,7 +28,7 @@ export default function ProfileScreen() {
             console.log(error);
         }
 
-    }, []);
+    }, [bookings]);
 
   return (
   <div>
